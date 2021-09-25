@@ -1,0 +1,11 @@
+with open(letter) as file:
+    mail = file.read()
+    print(mail)
+
+with open(name) as names:
+    invited = names.readlines()
+    for i in invited:
+        x = i.strip("\n")
+        inv = mail.replace("[name]", x)
+
+        print(inv)
