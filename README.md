@@ -4,7 +4,8 @@ Simple program for open and replace text in a file txt
 In this challenge I wrote a program for that take a list of name of people from the file invited_names.txt and replace this name in the file stating_letter.txt
 
 Example:
-#Starting Letter:
+
+# Starting Letter:
 
 Dear [name],
 
@@ -25,7 +26,7 @@ Momo
 Uncle Iroh
 Toph
 
-After the code execute:
+# After the code execute:
 
 Dear Aang,
 
