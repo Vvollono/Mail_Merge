@@ -7,5 +7,5 @@ with open(name) as names:
     for i in invited:
         x = i.strip("\n")
         inv = mail.replace("[name]", x)
-
-        print(inv)
+        with open (f"./Output/ReadyToSend/letter_for_{x}.txt", mode = "w") as completed_mail:
+            completed_mail.write(inv)
